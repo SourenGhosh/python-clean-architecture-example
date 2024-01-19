@@ -1,5 +1,17 @@
 ![tests](https://github.com/claudiosw/python-clean-architecture-example/workflows/pytesting/badge.svg) &nbsp; ![code coverage](https://raw.githubusercontent.com/claudiosw/python-clean-architecture-example/coverage-badge/coverage.svg?raw=true)
-
+# Clear Architechture paradigm
+```
+:-
+Entities layer:
+  src/domain
+Use Case layer:
+  src/interactor
+Interface Adapters layer:
+  src/infra
+  src/app
+:-
+Use case layer and interface adapter layer both use presenters and repositor; interface adapter layer use adstract class of presenter and repositor from Use case layer. 
+```
 # About
 This repository is a simple example of an implementation Clean Architecture using Python.
 
